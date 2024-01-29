@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-29T13:03:26 IST" name="HomePageSuite" finished-at="2024-01-29T13:03:44 IST" duration-ms="18253">
+    <groups>
+      <group name="HomePage">
+        <method signature="HomePageTest.verifySearchSuggestions()[pri:0, instance:adnabu.sumit.tests.HomePageTest@1700915]" name="verifySearchSuggestions" class="adnabu.sumit.tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyUserAbleToSearchData()[pri:0, instance:adnabu.sumit.tests.HomePageTest@1700915]" name="verifyUserAbleToSearchData" class="adnabu.sumit.tests.HomePageTest"/>
+      </group> <!-- HomePage -->
+      <group name="Regression">
+        <method signature="HomePageTest.verifySearchSuggestions()[pri:0, instance:adnabu.sumit.tests.HomePageTest@1700915]" name="verifySearchSuggestions" class="adnabu.sumit.tests.HomePageTest"/>
+        <method signature="HomePageTest.verifyUserAbleToSearchData()[pri:0, instance:adnabu.sumit.tests.HomePageTest@1700915]" name="verifyUserAbleToSearchData" class="adnabu.sumit.tests.HomePageTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2024-01-29T13:03:26 IST" name="Test" finished-at="2024-01-29T13:03:44 IST" duration-ms="18253">
+      <class name="adnabu.sumit.tests.HomePageTest">
+        <test-method is-config="true" signature="report()[pri:0, instance:adnabu.sumit.tests.HomePageTest@1700915]" started-at="2024-01-29T13:03:25 IST" name="report" finished-at="2024-01-29T13:03:26 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:adnabu.sumit.tests.HomePageTest@1700915]" started-at="2024-01-29T13:03:26 IST" name="openBrowser" finished-at="2024-01-29T13:03:28 IST" duration-ms="2592" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifySearchSuggestions()[pri:0, instance:adnabu.sumit.tests.HomePageTest@1700915]" started-at="2024-01-29T13:03:28 IST" name="verifySearchSuggestions" description="Verify Search Suggestions" finished-at="2024-01-29T13:03:35 IST" duration-ms="6671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchSuggestions -->
+        <test-method is-config="true" signature="stopReport()[pri:0, instance:adnabu.sumit.tests.HomePageTest@1700915]" started-at="2024-01-29T13:03:35 IST" name="stopReport" finished-at="2024-01-29T13:03:36 IST" duration-ms="853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:adnabu.sumit.tests.HomePageTest@1700915]" started-at="2024-01-29T13:03:36 IST" name="openBrowser" finished-at="2024-01-29T13:03:38 IST" duration-ms="1735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyUserAbleToSearchData()[pri:0, instance:adnabu.sumit.tests.HomePageTest@1700915]" started-at="2024-01-29T13:03:38 IST" name="verifyUserAbleToSearchData" description="Verify User able Search data" finished-at="2024-01-29T13:03:44 IST" duration-ms="6146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserAbleToSearchData -->
+        <test-method is-config="true" signature="stopReport()[pri:0, instance:adnabu.sumit.tests.HomePageTest@1700915]" started-at="2024-01-29T13:03:44 IST" name="stopReport" finished-at="2024-01-29T13:03:44 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- adnabu.sumit.tests.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- HomePageSuite -->
+</testng-results>

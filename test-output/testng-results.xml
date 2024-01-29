@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-29T13:57:53 IST" name="PLPPageSuite" finished-at="2024-01-29T13:58:30 IST" duration-ms="36918">
+    <groups>
+      <group name="PLPPage">
+        <method signature="ProductListingPageTest.verifyInStockAvailabilityFilter()[pri:0, instance:adnabu.sumit.tests.ProductListingPageTest@2ddc9a9f]" name="verifyInStockAvailabilityFilter" class="adnabu.sumit.tests.ProductListingPageTest"/>
+        <method signature="ProductListingPageTest.verifyOutOfStockAvailabilityFilter()[pri:0, instance:adnabu.sumit.tests.ProductListingPageTest@2ddc9a9f]" name="verifyOutOfStockAvailabilityFilter" class="adnabu.sumit.tests.ProductListingPageTest"/>
+      </group> <!-- PLPPage -->
+      <group name="Regression">
+        <method signature="ProductListingPageTest.verifyInStockAvailabilityFilter()[pri:0, instance:adnabu.sumit.tests.ProductListingPageTest@2ddc9a9f]" name="verifyInStockAvailabilityFilter" class="adnabu.sumit.tests.ProductListingPageTest"/>
+        <method signature="ProductListingPageTest.verifyOutOfStockAvailabilityFilter()[pri:0, instance:adnabu.sumit.tests.ProductListingPageTest@2ddc9a9f]" name="verifyOutOfStockAvailabilityFilter" class="adnabu.sumit.tests.ProductListingPageTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2024-01-29T13:57:53 IST" name="Test" finished-at="2024-01-29T13:58:30 IST" duration-ms="36918">
+      <class name="adnabu.sumit.tests.ProductListingPageTest">
+        <test-method is-config="true" signature="report()[pri:0, instance:adnabu.sumit.tests.ProductListingPageTest@2ddc9a9f]" started-at="2024-01-29T13:57:52 IST" name="report" finished-at="2024-01-29T13:57:53 IST" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:adnabu.sumit.tests.ProductListingPageTest@2ddc9a9f]" started-at="2024-01-29T13:57:53 IST" name="openBrowser" finished-at="2024-01-29T13:57:56 IST" duration-ms="3008" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyInStockAvailabilityFilter()[pri:0, instance:adnabu.sumit.tests.ProductListingPageTest@2ddc9a9f]" started-at="2024-01-29T13:57:56 IST" name="verifyInStockAvailabilityFilter" description="Verify In stock Availability Filter option" finished-at="2024-01-29T13:58:11 IST" duration-ms="15582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInStockAvailabilityFilter -->
+        <test-method is-config="true" signature="stopReport()[pri:0, instance:adnabu.sumit.tests.ProductListingPageTest@2ddc9a9f]" started-at="2024-01-29T13:58:11 IST" name="stopReport" finished-at="2024-01-29T13:58:13 IST" duration-ms="1240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:adnabu.sumit.tests.ProductListingPageTest@2ddc9a9f]" started-at="2024-01-29T13:58:13 IST" name="openBrowser" finished-at="2024-01-29T13:58:15 IST" duration-ms="1994" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyOutOfStockAvailabilityFilter()[pri:0, instance:adnabu.sumit.tests.ProductListingPageTest@2ddc9a9f]" started-at="2024-01-29T13:58:15 IST" name="verifyOutOfStockAvailabilityFilter" description="Verify Out of stock Availability Filter option" finished-at="2024-01-29T13:58:29 IST" duration-ms="14866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOutOfStockAvailabilityFilter -->
+        <test-method is-config="true" signature="stopReport()[pri:0, instance:adnabu.sumit.tests.ProductListingPageTest@2ddc9a9f]" started-at="2024-01-29T13:58:29 IST" name="stopReport" finished-at="2024-01-29T13:58:30 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- adnabu.sumit.tests.ProductListingPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- PLPPageSuite -->
+</testng-results>
